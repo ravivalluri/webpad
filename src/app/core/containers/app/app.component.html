@@ -1,0 +1,24 @@
+<mat-toolbar color="primary" class="toolbar">
+  <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-around center" class="toolbar__row">
+    <span fxFlex>
+      <a routerLink="/">
+        <img src="../../../../assets/images/logo.png" alt="webpad" class="toolbar__logo">
+      </a>
+    </span>
+
+    <span fxFlex class="toolbar__button">
+      <app-user-status [currentUser]="currentUser$ | async" [isLoggingOut]="isLoggingOut$ | async" (login)="login()"
+        (logout)="logout()" (navigate)="navigate($event)"></app-user-status>
+    </span>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row fxLayout="row" fxLayoutAlign="center center" class="toolbar__row">
+    <button mat-button routerLink="drafts">Drafts</button>
+    <button mat-button routerLink="templates">Templates</button>
+    <button mat-button routerLink="posts" *ngIf="!!(currentUser$ | async)">Posts</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<main class="container">
+  <router-outlet></router-outlet>
+</main>

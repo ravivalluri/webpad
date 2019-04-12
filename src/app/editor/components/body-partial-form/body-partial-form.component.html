@@ -1,0 +1,5 @@
+<div [formGroup]="parentForm">
+  <mat-spinner *ngIf="isUploading" [diameter]="30" style="margin-bottom: 10px;"></mat-spinner>
+  <td-text-editor [options]="options" formControlName="body" #textEditor></td-text-editor>
+  <input #fileInput type="file" accept="image/*" style="display: none;" (change)="uploadAndInsertImage($event)">
+</div>
