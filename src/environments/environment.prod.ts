@@ -1,8 +1,11 @@
 export const environment = {
   production: true,
   steemConnectConfig: {
-    clientId: '<client-id-of-the-steemconnect-app>',
-    redirectUrl: '<redirect-uri-for-production>',
+    clientId: 'webpad.app',
+    redirectUrl: 'http://localhost:4200/',
     scope: ['comment', 'comment_options']
+  },
+  steemRPCConfig: {
+    node: 'https://anyx.io/'
   }
 };

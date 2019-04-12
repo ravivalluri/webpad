@@ -1,0 +1,92 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/2.15674248e4e5d1d41e80.js",
+        "/6.485897722ec16384f887.js",
+        "/7.43f616929b52c15424db.js",
+        "/8.c7fbc7929bb4a5d57326.js",
+        "/9.ec759809d9b84da9fed7.js",
+        "/common.33c0a05f1b8916ef1b87.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.8b82644c25ef106dd8c2.js",
+        "/polyfills.ce156af82ae275bf36de.js",
+        "/runtime.e59d6bf83ddf98389c60.js",
+        "/styles.7ba9ba94c4d2a1a7a62f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-144.png",
+        "/assets/icons/icon-192.png",
+        "/assets/icons/icon-48.png",
+        "/assets/icons/icon-512.png",
+        "/assets/icons/icon-96.png",
+        "/assets/images/logo.png",
+        "/assets/images/logo.svg",
+        "/assets/images/no-drafts.jpg"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "fonts",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/2.15674248e4e5d1d41e80.js": "2253480b9cc91d5ce4907f0326cce018e71cfc85",
+    "/6.485897722ec16384f887.js": "ab95989b0819c4633d9d3015caa0e1a43dbb03fe",
+    "/7.43f616929b52c15424db.js": "c3034490c34850266e371fad4d8c577d908a4b06",
+    "/8.c7fbc7929bb4a5d57326.js": "dc8c54dc5ad1d257adc22b2d5ab8d6383a0374f0",
+    "/9.ec759809d9b84da9fed7.js": "5ac1ad96aa4ba4f04c896562e210972544380c0b",
+    "/assets/icons/icon-144.png": "477671db02f4564bc1fdfa544a297f13e593401c",
+    "/assets/icons/icon-192.png": "f1461ec054364088494bc8a310766a3bb4dadd3d",
+    "/assets/icons/icon-48.png": "e0cc5528ce77c8bbc1844cceef2c9748a1100811",
+    "/assets/icons/icon-512.png": "7f2fa3b25ef5d690706186e7496ba04f29f3f107",
+    "/assets/icons/icon-96.png": "7ad5ea4d9537cb7ee816df1c4b2da1345ff24d81",
+    "/assets/images/logo.png": "c240a3bf44611b5e6fa0a447dc605e49a2d4252e",
+    "/assets/images/logo.svg": "48bbdaa2f9ae919392e1fdb81378037853adc9da",
+    "/assets/images/no-drafts.jpg": "471e1ab982f461f4bd5f37099a75a737dfc36e05",
+    "/common.33c0a05f1b8916ef1b87.js": "09bdaa066a6a85975dd4089dd5311b6ab6809ede",
+    "/favicon.ico": "f8b03406edee3ecad63bd20ddd7b627e0d630d2b",
+    "/index.html": "6543b0ee029ecdaecc804f05fcb18cd273725b80",
+    "/main.8b82644c25ef106dd8c2.js": "56a022f9d55cdbf618b4050ba003f1ba88264a28",
+    "/polyfills.ce156af82ae275bf36de.js": "ad694bde90ef6fbc8e2ff50af075839e8ced058a",
+    "/runtime.e59d6bf83ddf98389c60.js": "a81cc09d5c6d16c8da24a78707872f4ddd0b6ad3",
+    "/styles.7ba9ba94c4d2a1a7a62f.css": "2b80ef2f1bb98b768399cefeb408a170a30e28d2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
